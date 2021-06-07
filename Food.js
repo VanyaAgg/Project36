@@ -1,9 +1,9 @@
 class Food {
-    food = loadImage("milk.png");
-
-    constructor(foodStock, lastFed){
-
-    }
+    constructor(){
+        this.foodStock=0;
+        this.lastFed;
+        this.image=loadImage('Images/Milk.png');
+        }
 
 bedroom(){
     background(bedroom, 550, 500);
@@ -17,6 +17,13 @@ washroom(){
     background(washroom, 550, 500);
 }
    
+updateFoodStock(foodStock){
+    this.foodStock=foodStock;
+   }
+   
+getFoodStock(){
+    return this.foodStock;
+  }
 
     display(){
         var x=80, y=100;
