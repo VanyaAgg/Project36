@@ -6,12 +6,12 @@ var bedroom, garden, washroom;
 var readState, changeState;
 function preload()
 {
-  dog= loadImage("dogImg.png");
-	happyDog= loadImage( "dogImg1.png" );
-  bedroom = loadImage("bedroom.png");
-  garden = loadImage("garden.png");
-  washroom = loadImage("washroom.png");
-  sadDog = loadImage("sadDog.png");
+  dog= loadImage(images/"dogImg.png");
+	happyDog= loadImage(images/ "dogImg1.png" );
+  bedroom = loadImage(images/"bedroom.png");
+  garden = loadImage(images/"garden.png");
+  washroom = loadImage(images/"washroom.png");
+  sadDog = loadImage(images/"sadDog.png");
 }
 
 function setup() {
